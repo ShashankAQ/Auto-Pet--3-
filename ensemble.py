@@ -13,9 +13,9 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Paths to the trained model checkpoints
 model_paths = {
-    'UNet3D': '/home/vinti_agarwal/shashwath/try/1.pth',  # Update with the actual path
-    'ResUNet3D': '/home/vinti_agarwal/shashwath/try1/2.pth',  # Update with the actual path
-    'UNETR': '/home/vinti_agarwal/shashwath/try2/3.pth'  # Update with the actual path
+    'UNet3D': 'downloaded_weights',  # Update with the actual path
+    'ResUNet3D': 'downloaded_weights',  # Update with the actual path
+    'UNETR': 'downloaded_weights'  # Update with the actual path
 }
 
 # Initialize and load each model
