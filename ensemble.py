@@ -50,8 +50,8 @@ def ensemble_predictions(models, image):
     return ensemble_prediction
 
 # Load the dataset
-images_dir = '/home/vinti_agarwal/shashwath/imagesTr'
-labels_dir = '/home/vinti_agarwal/shashwath/labelsTr'
+images_dir = 'imagesTr'
+labels_dir = 'labelsTr'
 dataset = MedicalDataset(images_dir=images_dir, labels_dir=labels_dir)
 data_loader = DataLoader(dataset, batch_size=1, shuffle=False)
 
